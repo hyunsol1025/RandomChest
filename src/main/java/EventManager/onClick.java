@@ -20,7 +20,6 @@ public class onClick implements Listener {
         if(e.getClickedBlock() == null) return;
 
         Location bLoc = e.getClickedBlock().getLocation();
-
         if(p.getInventory().getItemInMainHand().getType() == Material.NAME_TAG) {
 
             e.setCancelled(true);

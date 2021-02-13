@@ -80,7 +80,9 @@ public class PlaceChest {
         if(chestCounter < chestAmount) {
             p.sendMessage("§c§l랜덤상자 | §f지정된 상자 갯수§7("+chestAmount+"개)§f만큼의 상자를 둘 공간이 없어, "+chestCounter+"개가 배치되었습니다.");
         }
+
+        SpreadItem.SpreadItem();
     }
 
-    
+
 }
